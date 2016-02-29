@@ -1,0 +1,130 @@
+.component.smsh a, button {
+	outline: none;
+}
+
+.component.smsh a {
+	text-decoration: none;
+}
+
+.component.smsh .container > header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.component.smsh .container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.component.smsh .container > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.7;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* To Navigation Style */
+.component.smsh .codrops-top {
+	background: #f06060;
+	background: rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.component.smsh .codrops-top a {
+	text-decoration: none;
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	display: inline-block;
+}
+
+.component.smsh .codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #777;
+}
+
+.component.smsh .codrops-top span.right {
+	float: right;
+}
+
+.component.smsh .codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.component.smsh .codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.component.smsh .codrops-icon-drop:before {
+	content: "\e001" !important;
+}
+
+.component.smsh .codrops-icon-prev:before {
+	content: "\e004" !important;
+}
+
+/* Demo Buttons Style */
+.component.smsh .codrops-demos {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+.component.smsh .icon-picture:before, .icon-image:before {    content: "\f03e" !important;}
+.component.smsh .codrops-demos a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	border: 3px solid #fff;
+	color: #fff;
+	font-weight: 700;
+}
+
+.component.smsh .codrops-demos a:hover,
+.component.smsh .codrops-demos a.current-demo,
+.component.smsh .codrops-demos a.current-demo:hover {
+	opacity: 0.6;
+}
+
+.component.smsh .container > section {
+	padding: 2em;
+	font-size: 1.4em;
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+.component.smsh .container > section p {
+	padding: 0.8em 0;
+	text-align: justify;
+	opacity: 0.5;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+@media screen and (max-width: 25em) {
+
+	.component.smsh .codrops-icon span {
+		display: none;
+	}
+
+}
+.component.smsh .icon-home:before {content: "\f015" !important;}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: FontAwesome !important;
+}

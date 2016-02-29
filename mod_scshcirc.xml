@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>mod_scshcirc</name>
+    <author> shahryar tavakkoli https://trangell.com</author>
+    <version>1.0.1</version>
+    <description>ماژول نویگیشن دایره ای برای جوملا ۳</description>
+    <files>
+        <filename>mod_scshcirc.xml</filename>
+        <filename module="mod_scshcirc">mod_scshcirc.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/js/demo1.js</filename>
+        <filename>tmpl/js/modernizr-2.6.2.min.js</filename>
+        <filename>tmpl/js/polyfills.js</filename>
+        <filename>tmpl/css/normalize.css</filename>
+        <filename>tmpl/fonts/fontawesome-webfont.eot</filename>
+        <filename>tmpl/fonts/fontawesome-webfont.svg</filename>
+        <filename>tmpl/fonts/fontawesome-webfont.ttf</filename>
+        <filename>tmpl/fonts/fontawesome-webfont.woff</filename>
+        <filename>tmpl/css/component1.css</filename>
+        <filename>tmpl/css/demo.css</filename>
+    </files>
+    <config>
+<fields name="params">
+    <fieldset name="basic">
+             <field name="picture" type="text" default="https://trangell.com" label="picture" description="" />
+             <field name="headphones" type="text" default="trangell" label="headphones" description="" />
+             <field name="home" type="text" default="trangell" label="home" description="" />
+             <field name="video" type="text" default="trangell" label="video" description="" />
+             <field name="email" type="text" default="trangell" label="email" description="" />
+
+     </fieldset>
+</fields>
+
+    </config>
+</extension>
